@@ -1,0 +1,20 @@
+{
+    "name": "apertagraffa/sitemapper",
+    "type": "library",
+    "keywords": ["sitemap","generator"],
+    "homepage": "",
+    "description": "Ridiculously small package for dynamic sitemap generation in small websites",
+    "authors": [
+        {
+            "name": "Luca Menozzi",
+            "email": "info@apertagraffa.it",
+            "homepage": "http://www.apertagraffa.it",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9"
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
