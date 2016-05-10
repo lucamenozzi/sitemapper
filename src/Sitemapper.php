@@ -9,7 +9,7 @@ use Storage;
  * Class Sitemapper
  * @package Apertagraffa
  */
-class Sitemapper extends Model
+class Sitemapper implements SitemapperInterface
 {
     /**
      * @var string
@@ -69,13 +69,17 @@ class Sitemapper extends Model
      * @return string
      */
     public function render() {
+        if (is_file( public_path('sitemap.xml') )) {
+            response()->file( public_path('sitemap.xml') );
+        } else {
+            $sitemap = $this->header;
+            $sitemap .= $this->open_urlset;
+            $sitemap .= $this->compositing;
+            $sitemap .= $this->end_urlset;
 
-        $sitemap = $this->header;
-        $sitemap .= $this->open_urlset;
-        $sitemap .= $this->compositing;
-        $sitemap .= $this->end_urlset;
+            return $sitemap;
+        }
 
-        return $sitemap;
 
     }
 
