@@ -2,8 +2,6 @@
 
 namespace Apertagraffa\Sitemapper;
 
-use Illuminate\Database\Eloquent\Model;
-use Storage;
 
 /**
  * Class Sitemapper
