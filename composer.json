@@ -1,9 +1,9 @@
 {
     "name": "apertagraffa/sitemapper",
     "type": "library",
-    "keywords": ["sitemap","generator"],
-    "homepage": "",
-    "description": "Ridiculously small package for dynamic sitemap generation in small websites",
+    "keywords": ["laravel", "sitemap","generator"],
+    "homepage": "https://github.com/lucamenozzi/sitemapper",
+    "description": "Ridiculously small package for manual sitemap generation in small websites",
     "authors": [
         {
             "name": "Luca Menozzi",
@@ -12,6 +12,7 @@
             "role": "Developer"
         }
     ],
+    "license": "MIT",
     "require": {
         "php": ">=5.5.9"
     },
