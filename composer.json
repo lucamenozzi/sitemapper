@@ -16,6 +16,14 @@
     "require": {
         "php": ">=5.5.9"
     },
-    "minimum-stability": "stable",
+    "autoload": {
+        "classmap": [
+            "src"
+        ],
+        "psr-4": {
+            "Apertagraffa\\Sitemapper\\": "src/"
+        }
+    },
+    "minimum-stability": "",
     "require": {}
 }

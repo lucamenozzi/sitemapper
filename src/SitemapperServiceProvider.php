@@ -13,7 +13,7 @@ class SitemapperServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        // todo
     }
 
     /**
@@ -23,6 +23,6 @@ class SitemapperServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        //todo
     }
 }
